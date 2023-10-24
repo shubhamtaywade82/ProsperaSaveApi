@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 ruby '3.2.2'
@@ -40,6 +42,8 @@ gem 'rack-cors'
 
 group :development, :test do
   gem 'rubocop', '~> 1.57'
+  gem 'rubocop-rails', '~> 2.21'
+
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri windows]
 end
