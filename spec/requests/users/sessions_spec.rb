@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+require 'rails_helper'
+
+RSpec.describe 'Users::Sessions' do
+  describe 'GET /create' do
+    it 'returns http success' do
+      get '/users/sessions/create'
+      expect(response).to have_http_status(:success)
+    end
+  end
+
+  describe 'GET /destroy' do
+    it 'returns http success' do
+      get '/users/sessions/destroy'
+      expect(response).to have_http_status(:success)
+    end
+  end
+end
