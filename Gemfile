@@ -46,6 +46,7 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 6.2'
   gem 'faker', '~> 3.2'
   gem 'rspec-rails', '~> 6.0'
+  gem 'rswag-specs', '~> 2.11'
   gem 'rubocop', '~> 1.57'
   gem 'rubocop-factory_bot', '~> 2.24'
   gem 'rubocop-rails', '~> 2.21'
@@ -58,3 +59,5 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+gem 'rswag', '~> 2.11'
