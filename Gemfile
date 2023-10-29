@@ -52,6 +52,7 @@ group :development, :test do
   gem 'rubocop-rails', '~> 2.21'
   gem 'rubocop-rspec', '~> 2.24'
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem 'bundle-audit', '~> 0.1.0'
   gem 'debug', platforms: %i[mri windows]
 end
 
